@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  portfolio:
+    build: .
+    ports:
+      - "3131:3131"
+    environment:
+      - NODE_ENV=production
+      - PORT=3131
+    restart: always
+    volumes:
+      - ./public:/app/public:ro
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost:3131/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    networks:
+      - frontend
+
+networks:
+  frontend:
+    external: false

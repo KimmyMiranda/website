@@ -1,0 +1,27 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "Container-first portfolio website for kimberlymiranda.us",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "docker-build": "docker build -t portfolio-website .",
+    "docker-run": "docker run -p 3131:3131 --name portfolio portfolio-website",
+    "docker-run-detached": "docker run -d -p 3131:3131 --name portfolio portfolio-website",
+    "compose-up": "docker-compose up -d",
+    "compose-down": "docker-compose down",
+    "logs": "docker-compose logs -f"
+  },
+  "keywords": ["portfolio", "docker", "express"],
+  "author": "Kimberly Miranda",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

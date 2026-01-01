@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Details - Kimberly Miranda</title>
+  <meta name="description" content="Project details and case study">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body class="bg-gray-50 font-inter">
+  <!-- Navigation -->
+  <nav class="bg-white shadow-sm fixed w-full z-50 top-0">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between h-16">
+        <div class="flex items-center">
+          <a href="/" class="text-xl font-bold font-grotesk text-gray-900">Kimberly Miranda</a>
+        </div>
+        
+        <!-- Desktop Navigation -->
+        <div class="hidden md:flex items-center space-x-8">
+          <a href="/#about" class="text-gray-700 hover:text-gray-900 transition-colors">About</a>
+          <a href="/#projects" class="text-gray-700 hover:text-gray-900 transition-colors">Projects</a>
+          <a href="/resume" class="text-gray-700 hover:text-gray-900 transition-colors">Resume</a>
+          <a href="/#contact" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors">Contact</a>
+        </div>
+
+        <!-- Mobile menu button -->
+        <button id="mobile-menu-btn" class="md:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500" aria-expanded="false" aria-controls="mobile-menu" aria-label="Toggle navigation menu">
+          <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile menu -->
+    <div id="mobile-menu" class="hidden md:hidden">
+      <div class="px-2 pt-2 pb-3 space-y-1 bg-white border-t">
+        <a href="/#about" class="block px-3 py-2 rounded-md text-gray-700 hover:text-gray-900 hover:bg-gray-100 transition-colors">About</a>
+        <a href="/#projects" class="block px-3 py-2 rounded-md text-gray-700 hover:text-gray-900 hover:bg-gray-100 transition-colors">Projects</a>
+        <a href="/resume" class="block px-3 py-2 rounded-md text-gray-700 hover:text-gray-900 hover:bg-gray-100 transition-colors">Resume</a>
+        <a href="/#contact" class="block px-3 py-2 rounded-md text-gray-700 hover:text-gray-900 hover:bg-gray-100 transition-colors">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="pt-20">
+    <!-- Project Detail Container -->
+    <div id="project-detail" class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <!-- Content will be loaded by JavaScript -->
+      <noscript>
+        <div class="text-center py-12">
+          <p class="text-gray-600 mb-4">JavaScript is required to view project details.</p>
+          <a href="/" class="text-blue-600 hover:underline">Return to home</a>
+        </div>
+      </noscript>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-8 mt-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <p class="text-gray-400">&copy; 2026 Kimberly Miranda. All rights reserved.</p>
+        <p class="text-gray-500 text-sm mt-2">Built with Node.js, Express, and Tailwind CSS</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/main.js"></script>
+  <script>
+    // Load project detail on page load
+    document.addEventListener('DOMContentLoaded', () => {
+      loadProjectDetail();
+    });
+
+    async function loadProjectDetail() {
+      const container = document.getElementById('project-detail');
+      
+      // Extract slug from URL path (e.g., /project/ecommerce-platform)
+      const pathParts = window.location.pathname.split('/');
+      const slug = pathParts[pathParts.length - 1];
+
+      if (!slug) {
+        container.innerHTML = `
+          <div class="text-center py-12">
+            <h1 class="text-3xl font-bold text-gray-900 mb-4">Project Not Found</h1>
+            <p class="text-gray-600 mb-6">No project slug provided in URL.</p>
+            <a href="/" class="text-blue-600 hover:underline">Return to home</a>
+          </div>
+        `;
+        return;
+      }
+
+      try {
+        const response = await fetch(`/data/projects.json?v=${Date.now()}`);
+        if (!response.ok) throw new Error('Failed to load projects');
+        
+        const projects = await response.json();
+        const project = projects.find(p => p.slug === slug);
+
+        if (!project) {
+          container.innerHTML = `
+            <div class="text-center py-12">
+              <h1 class="text-3xl font-bold text-gray-900 mb-4">Project Not Found</h1>
+              <p class="text-gray-600 mb-6">The project "${slug}" could not be found.</p>
+              <a href="/" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors">Return to Home</a>
+            </div>
+          `;
+          return;
+        }
+
+        // Render project detail
+        container.innerHTML = `
+          <div class="fade-in-section">
+            <!-- Back button -->
+            <a href="/" class="inline-flex items-center text-blue-600 hover:text-blue-700 mb-8">
+              <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+              </svg>
+              Back to Projects
+            </a>
+
+            <!-- Project Header -->
+            <div class="mb-8">
+              <div class="flex flex-wrap items-center gap-3 mb-4">
+                <span class="inline-block px-3 py-1 bg-blue-100 text-blue-800 text-sm font-medium rounded-full">${project.category}</span>
+                <span class="text-gray-500">${project.year}</span>
+              </div>
+              <h1 class="text-4xl md:text-5xl font-bold font-grotesk text-gray-900 mb-4">${project.title}</h1>
+              ${project.subtitle ? `<p class="text-xl text-gray-600">${project.subtitle}</p>` : ''}
+            </div>
+
+            <!-- Project Image -->
+            ${project.image ? `
+              <div class="mb-12 rounded-2xl overflow-hidden shadow-xl">
+                <img src="${project.image}" alt="${project.title}" class="w-full h-auto object-cover" onerror="this.parentElement.style.display='none'">
+              </div>
+            ` : ''}
+
+            <!-- Project Content -->
+            <div class="prose prose-lg max-w-none mb-12">
+              ${project.longDescription ? `
+                <div class="mb-8">
+                  <h2 class="text-2xl font-bold font-grotesk text-gray-900 mb-4">Overview</h2>
+                  <p class="text-gray-700">${project.longDescription}</p>
+                </div>
+              ` : ''}
+
+              ${project.highlights && project.highlights.length > 0 ? `
+                <div class="mb-8">
+                  <h2 class="text-2xl font-bold font-grotesk text-gray-900 mb-4">Key Highlights</h2>
+                  <ul class="space-y-2">
+                    ${project.highlights.map(h => `<li class="text-gray-700">${h}</li>`).join('')}
+                  </ul>
+                </div>
+              ` : ''}
+
+              ${project.challenges ? `
+                <div class="mb-8">
+                  <h2 class="text-2xl font-bold font-grotesk text-gray-900 mb-4">Challenges & Solutions</h2>
+                  <p class="text-gray-700">${project.challenges}</p>
+                </div>
+              ` : ''}
+
+              ${project.outcome ? `
+                <div class="mb-8">
+                  <h2 class="text-2xl font-bold font-grotesk text-gray-900 mb-4">Outcome</h2>
+                  <p class="text-gray-700">${project.outcome}</p>
+                </div>
+              ` : ''}
+            </div>
+
+            <!-- Technologies -->
+            ${project.technologies && project.technologies.length > 0 ? `
+              <div class="mb-12">
+                <h2 class="text-2xl font-bold font-grotesk text-gray-900 mb-4">Technologies Used</h2>
+                <div class="flex flex-wrap gap-2">
+                  ${project.technologies.map(tech => `
+                    <span class="px-4 py-2 bg-gray-100 text-gray-800 rounded-lg text-sm font-medium">${tech}</span>
+                  `).join('')}
+                </div>
+              </div>
+            ` : ''}
+
+            <!-- Action Buttons -->
+            <div class="flex flex-wrap gap-4">
+              ${project.liveUrl ? `
+                <a href="${project.liveUrl}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                  </svg>
+                  View Live Site
+                </a>
+              ` : ''}
+              <a href="/#projects" class="inline-flex items-center gap-2 bg-gray-100 text-gray-900 px-6 py-3 rounded-lg hover:bg-gray-200 transition-colors">
+                View More Projects
+              </a>
+            </div>
+          </div>
+        `;
+
+        // Trigger fade-in animation
+        const section = container.querySelector('.fade-in-section');
+        if (section) {
+          setTimeout(() => section.classList.add('fade-in'), 100);
+        }
+
+      } catch (error) {
+        console.error('Error loading project:', error);
+        container.innerHTML = `
+          <div class="text-center py-12 bg-red-50 rounded-lg">
+            <h2 class="text-2xl font-bold text-red-900 mb-4">Error Loading Project</h2>
+            <p class="text-red-700 mb-6">Unable to load project details. Please try again later.</p>
+            <a href="/" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors">Return to Home</a>
+          </div>
+        `;
+      }
+    }
+  </script>
+</body>
+</html>
