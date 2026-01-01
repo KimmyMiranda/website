@@ -8,9 +8,9 @@ RUN npm install --production
 
 COPY . .
 
-EXPOSE 3131
+EXPOSE 3232
 
 ENV NODE_ENV=production
-ENV PORT=3131
+ENV PORT=3232
 
 CMD ["node", "server.js"]
