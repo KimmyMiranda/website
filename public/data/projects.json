@@ -5,7 +5,7 @@
     "subtitle": "Vice President - Cannabis advocacy, education, and social equity",
     "category": "Leadership & Advocacy",
     "year": "2023-2025",
-    "image": "/images/canna-club-project.jpg",
+    "image": "/images/cannaclub.PNG",
     "shortDescription": "Vice President of student-run organization focused on cannabis advocacy, education, and social equity. Led initiatives including educational discussions, harm reduction volunteering, and community outreach.",
     "longDescription": "As Vice President of Canna Club, I helped lead a student-run organization dedicated to bringing together individuals who share a passion for cannabis advocacy, education, and social equity. Our mission is to create an informed, inclusive, and judgment-free campus community where students can learn about cannabis safely and responsibly.",
     "highlights": [
@@ -33,7 +33,7 @@
     "subtitle": "Cannabis packaging industry analysis across US and Canada",
     "category": "Market Research",
     "year": "2025",
-    "image": "/images/crativ-project.jpg",
+    "image": "/images/marketresearch.PNG",
     "shortDescription": "Conducted comprehensive competitive market research for CRATIV Packaging Solutions, analyzing cannabis packaging companies across the United States and Canada to inform strategic decision-making.",
     "longDescription": "During my internship at CRATIV Packaging Solutions, I conducted competitive analysis and market research focused on the cannabis packaging industry. This project involved researching companies across the United States and Canada, analyzing their product offerings, pricing strategies, brand positioning, and overall market activity.",
     "highlights": [
@@ -61,7 +61,7 @@
     "subtitle": "Sustainable beverage business for Front Range farmers markets",
     "category": "Business Development",
     "year": "2024",
-    "image": "/images/babes-refreshments-project.jpg",
+    "image": "/images/lemonade.PNG",
     "shortDescription": "Developed comprehensive business plan for Babe's Refreshments, a sustainable farmers market beverage stand offering fresh-squeezed juices with environmentally conscious practices and reusable glassware program.",
     "longDescription": "Created a complete business plan for Babe's Refreshments, a local beverage concept designed for farmers markets in the Front Range region. The business offers fresh-squeezed lemonade, limeade, orange juice, and apple juice made with high-quality ingredients, while emphasizing sustainability and community values.",
     "highlights": [
@@ -89,7 +89,7 @@
     "subtitle": "Fast-paced food service and team collaboration",
     "category": "Customer Service",
     "year": "2024-2025",
-    "image": "/images/chipotle-project.jpg",
+    "image": "/images/chipotle.PNG",
     "shortDescription": "Delivered exceptional customer service in high-volume environment, collaborating with team members to optimize workflow and maintain food safety standards.",
     "longDescription": "As a crew member at Chipotle, I developed strong customer service skills while working in a fast-paced restaurant environment. I prepared custom food orders, managed cash register operations, and collaborated with 5-10 team members per shift to ensure smooth operations and customer satisfaction.",
     "highlights": [
@@ -116,7 +116,7 @@
     "subtitle": "Laboratory research using advanced biotechnology",
     "category": "Scientific Research",
     "year": "2023",
-    "image": "/images/lab-research-project.jpg",
+    "image": "/images/lab.PNG",
     "shortDescription": "Performed genetic experiments using PCR and CRISPR technologies, maintained detailed data logs, and collaborated with research team under professional supervision.",
     "longDescription": "During my internship at CU Anschutz Medical Campus, I worked in Dr. Aaron Johnson's laboratory performing genetic experiments using cutting-edge biotechnology. This experience taught me scientific rigor, attention to detail, and the importance of precise documentation in research settings.",
     "highlights": [
@@ -136,283 +136,5 @@
       "Research Methodology",
       "Quality Compliance"
     ]
-  }
-]
-    "subtitle": "Competitive analysis in cannabis packaging industry",
-    "category": "Market Research",
-    "year": "2025",
-    "image": "/images/crativ-project.jpg",
-    "shortDescription": "Conducted comprehensive competitive analysis for sustainable cannabis packaging company, researching market trends and competitor positioning to identify growth opportunities.",
-    "longDescription": "During my internship at CRATIV Solutions, I led a competitive analysis project focused on the cannabis and sustainable packaging industry. This involved researching key competitors, analyzing their product offerings, pricing strategies, and brand positioning to help the company identify market opportunities and strategic advantages.",
-    "highlights": [
-      "Researched and tracked 15+ key competitors in cannabis packaging space",
-      "Compiled detailed reports on product offerings, pricing, and market activity",
-      "Presented findings to leadership team with actionable recommendations",
-      "Identified 3 major market gaps for potential business expansion",
-      "Analyzed sustainability trends and eco-friendly packaging innovations"
-    ],
-    "challenges": "The main challenge was gathering accurate competitive intelligence in a rapidly evolving industry with limited public data. I overcame this by leveraging multiple research methods including industry reports, trade publications, and direct market observation.",
-    "outcome": "Successfully delivered comprehensive competitive analysis that informed CRATIV's strategic planning for Q3 2025. Leadership team used insights to refine product positioning and identify new market segments.",
-    "technologies": [
-      "Market Research",
-      "Competitive Analysis",
-      "Data Compilation",
-      "Business Intelligence",
-      "Presentation Skills"
-    ]
-  },
-  {
-    "slug": "chipotle-customer-service",
-    "title": "Customer Service Excellence at Chipotle",
-    "subtitle": "Fast-paced food service and team collaboration",
-    "category": "Customer Service",
-    "year": "2024-2025",
-    "image": "/images/chipotle-project.jpg",
-    "shortDescription": "Delivered exceptional customer service in high-volume environment, collaborating with team members to optimize workflow and maintain food safety standards.",
-    "longDescription": "As a crew member at Chipotle, I developed strong customer service skills while working in a fast-paced restaurant environment. I prepared custom food orders, managed cash register operations, and collaborated with 5-10 team members per shift to ensure smooth operations and customer satisfaction.",
-    "highlights": [
-      "Served 100+ customers daily with personalized service",
-      "Maintained 100% food safety compliance through proper handling procedures",
-      "Collaborated with diverse team to optimize workflow during peak hours",
-      "Acquired cashier experience managing transactions and handling customer inquiries",
-      "Adapted quickly to fast-paced environment and high-pressure situations"
-    ],
-    "challenges": "Managing high customer volume during lunch and dinner rushes while maintaining quality and speed. Developed efficient multi-tasking strategies and clear communication with team members to keep operations flowing smoothly.",
-    "outcome": "Consistently received positive customer feedback and contributed to team efficiency. Developed valuable skills in customer service, teamwork, and time management that are transferable to any business setting.",
-    "technologies": [
-      "Customer Service",
-      "Team Collaboration",
-      "Food Safety",
-      "Cash Handling",
-      "Time Management",
-      "Communication"
-    ]
-  },
-  {
-    "slug": "cu-anschutz-lab-research",
-    "title": "Genetic Research at CU Anschutz",
-    "subtitle": "Laboratory research using advanced biotechnology",
-    "category": "Scientific Research",
-    "year": "2023",
-    "image": "/images/lab-research-project.jpg",
-    "shortDescription": "Performed genetic experiments using PCR and CRISPR technologies, maintained detailed data logs, and collaborated with research team under professional supervision.",
-    "longDescription": "During my internship at CU Anschutz Medical Campus, I worked in Dr. Aaron Johnson's laboratory performing genetic experiments using cutting-edge biotechnology. This experience taught me scientific rigor, attention to detail, and the importance of precise documentation in research settings.",
-    "highlights": [
-      "Performed PCR and CRISPR genetic experiments with 95%+ accuracy",
-      "Maintained detailed daily data logs and experimental records",
-      "Ensured compliance with CU Anschutz laboratory standards and protocols",
-      "Collaborated with team of 5 researchers on multiple projects",
-      "Learned advanced laboratory techniques and equipment operation"
-    ],
-    "challenges": "Learning complex laboratory techniques and maintaining precision in a highly technical environment. Through mentorship and consistent practice, I developed strong attention to detail and scientific methodology skills.",
-    "outcome": "Successfully completed summer internship with strong performance reviews. Gained valuable experience in research methodology, data management, and team collaboration that strengthened my analytical and problem-solving abilities.",
-    "technologies": [
-      "PCR Technology",
-      "CRISPR",
-      "Laboratory Techniques",
-      "Data Recording",
-      "Research Methodology",
-      "Quality Compliance"
-    ]
-  },
-  {
-    "slug": "speech-debate-leadership",
-    "title": "Speech & Debate Team Leadership",
-    "subtitle": "Leading competitive team to regional success",
-    "category": "Leadership",
-    "year": "2022-2023",
-    "image": "/images/debate-project.jpg",
-    "shortDescription": "Served as Speech & Debate Captain at Hinkley High School, leading team of 10 members in local and regional competitions while organizing practices and peer coaching.",
-    "longDescription": "As captain of the Speech & Debate team during my senior year, I led a team of 10 members through local and regional competitions. I was responsible for organizing weekly practices, facilitating peer coaching sessions, and preparing the team for tournaments. This role developed my leadership, communication, and organizational skills.",
-    "highlights": [
-      "Led team of 10 members to multiple regional competition placements",
-      "Organized and facilitated weekly practice sessions and strategy meetings",
-      "Mentored newer team members through peer coaching programs",
-      "Coordinated tournament logistics including travel and registration",
-      "Developed public speaking skills through competitive debate formats"
-    ],
-    "challenges": "Balancing leadership responsibilities with my own competition preparation while keeping team members motivated and engaged. Learned to delegate effectively and create inclusive team culture.",
-    "outcome": "Team achieved best regional performance in school's history. Developed strong leadership and communication skills that I now apply in professional settings. Several team members continued to compete at collegiate level.",
-    "technologies": [
-      "Public Speaking",
-      "Leadership",
-      "Team Management",
-      "Peer Coaching",
-      "Event Planning",
-      "Critical Thinking"
-    ]
-  },
-  {
-    "slug": "cannabis-business-education",
-    "title": "Cannabis Business Studies",
-    "subtitle": "Academic foundation in emerging industry",
-    "category": "Education",
-    "year": "2023-2025",
-    "image": "/images/education-project.jpg",
-    "shortDescription": "Pursuing A.A.S. in Cannabis Business at Community College of Denver with focus on business fundamentals, accounting, and customer service in regulated industry.",
-    "longDescription": "Currently pursuing an Associate of Applied Science degree in Cannabis Business, gaining comprehensive knowledge of business operations within the regulated cannabis industry. Coursework includes business fundamentals, accounting principles, and customer service excellence, all applied to the unique challenges of the cannabis sector.",
-    "highlights": [
-      "Achieved Dean's List (2023) and President's List (2024) academic honors",
-      "Completed coursework in business, accounting, and customer service",
-      "Served as Vice President of student-run organization on campus",
-      "Received Outstanding Student Organization Award (2025)",
-      "Gained understanding of cannabis industry regulations and compliance"
-    ],
-    "challenges": "Balancing academic coursework with multiple internships and work commitments. Developed strong time management and prioritization skills to excel in both academic and professional settings.",
-    "outcome": "Maintained high academic standing while gaining practical experience through internships. Built strong foundation for career in cannabis business management and operations.",
-    "technologies": [
-      "Business Management",
-      "Accounting",
-      "Customer Service",
-      "Cannabis Regulations",
-      "Organizational Leadership",
-      "Academic Excellence"
-    ]
-  }
-]
-    "subtitle": "Full-stack online marketplace with payment integration",
-    "category": "Web Application",
-    "year": "2025",
-    "image": "/images/ecommerce-project.jpg",
-    "shortDescription": "Built a scalable e-commerce platform with shopping cart, payment processing, and order management. Features real-time inventory tracking and responsive design.",
-    "longDescription": "Developed a comprehensive e-commerce solution that handles thousands of products and concurrent users. The platform includes a robust admin panel for inventory management, dynamic pricing, and customer analytics. Integrated with Stripe for secure payment processing and implemented automated email notifications for order updates.",
-    "highlights": [
-      "Microservices architecture with separate services for catalog, cart, and payments",
-      "Real-time inventory synchronization across multiple warehouses",
-      "Advanced search and filtering with Elasticsearch",
-      "Mobile-first responsive design achieving 95+ Lighthouse score",
-      "Automated testing with 85% code coverage"
-    ],
-    "challenges": "The main challenge was handling high traffic during flash sales while maintaining data consistency. Implemented Redis caching and database read replicas to handle 10,000+ concurrent users without performance degradation.",
-    "outcome": "Successfully launched to production serving 50,000+ monthly active users with 99.9% uptime. Reduced page load times by 60% and increased conversion rate by 25%.",
-    "technologies": [
-      "React",
-      "Node.js",
-      "Express",
-      "PostgreSQL",
-      "Redis",
-      "Docker",
-      "AWS",
-      "Stripe API"
-    ],
-    "liveUrl": "https://example.com"
-  },
-  {
-    "slug": "task-management-app",
-    "title": "Task Management Application",
-    "subtitle": "Collaborative project management tool for teams",
-    "category": "SaaS Product",
-    "year": "2024",
-    "image": "/images/task-manager-project.jpg",
-    "shortDescription": "A collaborative task management platform with real-time updates, kanban boards, and team collaboration features. Supports multiple projects and workflows.",
-    "longDescription": "Created a modern project management solution that enables teams to organize work efficiently. Features include drag-and-drop kanban boards, Gantt charts, time tracking, and comprehensive reporting. Built with real-time collaboration using WebSockets for instant updates across all team members.",
-    "highlights": [
-      "Real-time collaboration with WebSocket integration",
-      "Customizable workflows and project templates",
-      "Advanced filtering and search capabilities",
-      "Time tracking and productivity analytics",
-      "Integration with Slack and email notifications"
-    ],
-    "challenges": "Ensuring real-time synchronization across multiple users while handling offline scenarios and conflict resolution. Implemented operational transformation algorithms and optimistic UI updates for seamless user experience.",
-    "outcome": "Adopted by 15+ companies with teams ranging from 5-50 members. Average user session time of 45 minutes indicates high engagement. Received 4.8/5 rating from early adopters.",
-    "technologies": [
-      "Vue.js",
-      "TypeScript",
-      "Node.js",
-      "Socket.io",
-      "MongoDB",
-      "Docker",
-      "Kubernetes"
-    ]
-  },
-  {
-    "slug": "portfolio-cms",
-    "title": "Headless CMS for Portfolios",
-    "subtitle": "Content management system for creative professionals",
-    "category": "Open Source",
-    "year": "2024",
-    "image": "/images/cms-project.jpg",
-    "shortDescription": "An open-source headless CMS tailored for portfolio websites. Features API-first architecture, markdown support, and media management.",
-    "longDescription": "Developed a lightweight, API-first content management system specifically designed for portfolio websites and blogs. Provides a clean admin interface for managing projects, blog posts, and media assets. Supports multiple content types, custom fields, and RESTful API for integration with any frontend framework.",
-    "highlights": [
-      "RESTful and GraphQL API support",
-      "Rich markdown editor with live preview",
-      "Media library with automatic image optimization",
-      "Role-based access control",
-      "Docker-based deployment for easy setup",
-      "Comprehensive API documentation"
-    ],
-    "challenges": "Balancing simplicity for end-users while providing flexibility for developers. Implemented a plugin system allowing custom field types and hooks without compromising core stability.",
-    "outcome": "Released as open-source project with 500+ GitHub stars. Adopted by 100+ developers for their portfolio sites. Active community contributing plugins and translations.",
-    "technologies": [
-      "Node.js",
-      "Express",
-      "PostgreSQL",
-      "React",
-      "GraphQL",
-      "Docker",
-      "Jest"
-    ],
-    "liveUrl": "https://github.com/example/portfolio-cms"
-  },
-  {
-    "slug": "analytics-dashboard",
-    "title": "Real-Time Analytics Dashboard",
-    "subtitle": "Business intelligence platform with interactive visualizations",
-    "category": "Data Visualization",
-    "year": "2023",
-    "image": "/images/analytics-project.jpg",
-    "shortDescription": "Interactive analytics dashboard providing real-time insights into business metrics. Features customizable widgets, data export, and scheduled reports.",
-    "longDescription": "Built a comprehensive analytics platform that aggregates data from multiple sources and presents actionable insights through interactive visualizations. Includes support for custom dashboards, KPI tracking, and automated reporting. Handles millions of data points with sub-second query performance.",
-    "highlights": [
-      "Real-time data streaming and visualization",
-      "Customizable dashboard with drag-and-drop widgets",
-      "Support for multiple data sources (SQL, APIs, CSV)",
-      "Advanced filtering and drill-down capabilities",
-      "Scheduled reports via email and Slack",
-      "Export to PDF, Excel, and CSV formats"
-    ],
-    "challenges": "Optimizing query performance for large datasets while maintaining real-time updates. Implemented data aggregation pipelines, materialized views, and smart caching strategies to achieve sub-second response times.",
-    "outcome": "Deployed for enterprise client processing 10M+ events daily. Reduced manual reporting time by 80% and improved decision-making speed with real-time insights. Won internal innovation award.",
-    "technologies": [
-      "React",
-      "D3.js",
-      "Python",
-      "FastAPI",
-      "PostgreSQL",
-      "Redis",
-      "Apache Kafka",
-      "Docker"
-    ]
-  },
-  {
-    "slug": "mobile-fitness-tracker",
-    "title": "Mobile Fitness Tracking App",
-    "subtitle": "Cross-platform fitness and wellness application",
-    "category": "Mobile App",
-    "year": "2023",
-    "image": "/images/fitness-project.jpg",
-    "shortDescription": "Cross-platform mobile app for tracking workouts, nutrition, and wellness goals. Includes social features and progress visualization.",
-    "longDescription": "Developed a comprehensive fitness tracking application that helps users monitor their health and fitness journey. Features include workout logging, meal tracking with nutrition database, progress photos, and achievement system. Integrated with wearable devices for automatic activity tracking.",
-    "highlights": [
-      "Integration with Apple Health and Google Fit",
-      "Offline-first architecture with local storage",
-      "Social features for sharing progress and challenges",
-      "Custom workout builder with exercise library",
-      "Progress tracking with charts and statistics",
-      "Push notifications for workout reminders"
-    ],
-    "challenges": "Managing offline functionality and data synchronization across devices. Implemented robust conflict resolution and background sync to ensure data integrity even with intermittent connectivity.",
-    "outcome": "Launched on iOS and Android with 10,000+ downloads in first month. Achieved 4.6/5 star rating. Daily active user rate of 45% indicating strong engagement.",
-    "technologies": [
-      "React Native",
-      "TypeScript",
-      "Node.js",
-      "MongoDB",
-      "GraphQL",
-      "AWS",
-      "Firebase"
-    ],
-    "liveUrl": "https://example.com/fitness-app"
   }
 ]
