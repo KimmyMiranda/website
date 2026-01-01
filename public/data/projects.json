@@ -1,7 +1,275 @@
 [
   {
-    "slug": "ecommerce-platform",
-    "title": "E-Commerce Platform",
+    "slug": "canna-club-leadership",
+    "title": "Canna Club Student Organization",
+    "subtitle": "Vice President - Cannabis advocacy, education, and social equity",
+    "category": "Leadership & Advocacy",
+    "year": "2023-2025",
+    "image": "/images/canna-club-project.jpg",
+    "shortDescription": "Vice President of student-run organization focused on cannabis advocacy, education, and social equity. Led initiatives including educational discussions, harm reduction volunteering, and community outreach.",
+    "longDescription": "As Vice President of Canna Club, I helped lead a student-run organization dedicated to bringing together individuals who share a passion for cannabis advocacy, education, and social equity. Our mission is to create an informed, inclusive, and judgment-free campus community where students can learn about cannabis safely and responsibly.",
+    "highlights": [
+      "Served as Vice President of award-winning student organization",
+      "Organized Canna Talk educational discussion series on campus",
+      "Led letter-writing campaigns to support incarcerated cannabis prisoners",
+      "Coordinated harm reduction volunteering and community drives",
+      "Advocated for social equity initiatives in cannabis policy",
+      "Received Outstanding Student Organization Award (2025)"
+    ],
+    "challenges": "Addressing stigma and misinformation around cannabis while fostering open, evidence-based dialogue on campus. We overcame this by partnering with industry professionals and hosting peer-led educational sessions that encouraged informed decision-making.",
+    "outcome": "Successfully built an inclusive campus community around cannabis education. Received Outstanding Student Organization Award in 2025. Established lasting partnerships with industry professionals and community organizations, creating a model for responsible cannabis advocacy on campus.",
+    "technologies": [
+      "Community Organizing",
+      "Public Speaking",
+      "Event Planning",
+      "Advocacy",
+      "Partnership Development",
+      "Educational Programming"
+    ]
+  },
+  {
+    "slug": "crativ-market-research",
+    "title": "Competitive Market Research - CRATIV",
+    "subtitle": "Cannabis packaging industry analysis across US and Canada",
+    "category": "Market Research",
+    "year": "2025",
+    "image": "/images/crativ-project.jpg",
+    "shortDescription": "Conducted comprehensive competitive market research for CRATIV Packaging Solutions, analyzing cannabis packaging companies across the United States and Canada to inform strategic decision-making.",
+    "longDescription": "During my internship at CRATIV Packaging Solutions, I conducted competitive analysis and market research focused on the cannabis packaging industry. This project involved researching companies across the United States and Canada, analyzing their product offerings, pricing strategies, brand positioning, and overall market activity.",
+    "highlights": [
+      "Researched cannabis packaging companies across US and Canada",
+      "Analyzed product offerings, pricing strategies, and brand positioning",
+      "Compiled structured reports to support strategic decision-making",
+      "Identified market trends in sustainable packaging solutions",
+      "Presented competitive intelligence findings to leadership team",
+      "Strengthened skills in market research and data analysis"
+    ],
+    "challenges": "Gathering comprehensive competitive intelligence in a rapidly evolving regulated industry with varying state and provincial laws. Developed systematic research methodology to ensure accurate and actionable data collection.",
+    "outcome": "Delivered detailed competitive analysis that informed CRATIV's strategic planning and market positioning. Reports were used by leadership to identify growth opportunities and refine product development strategies in the cannabis packaging space.",
+    "technologies": [
+      "Market Research",
+      "Competitive Analysis",
+      "Data Analysis",
+      "Business Intelligence",
+      "Strategic Planning",
+      "Report Writing"
+    ]
+  },
+  {
+    "slug": "babes-refreshments-business-plan",
+    "title": "Babe's Refreshments Business Plan",
+    "subtitle": "Sustainable beverage business for Front Range farmers markets",
+    "category": "Business Development",
+    "year": "2024",
+    "image": "/images/babes-refreshments-project.jpg",
+    "shortDescription": "Developed comprehensive business plan for Babe's Refreshments, a sustainable farmers market beverage stand offering fresh-squeezed juices with environmentally conscious practices and reusable glassware program.",
+    "longDescription": "Created a complete business plan for Babe's Refreshments, a local beverage concept designed for farmers markets in the Front Range region. The business offers fresh-squeezed lemonade, limeade, orange juice, and apple juice made with high-quality ingredients, while emphasizing sustainability and community values.",
+    "highlights": [
+      "Developed comprehensive business plan including market analysis and financial projections",
+      "Designed sustainable business model with reusable glassware (mason jars) and stainless steel straws",
+      "Created 5% discount incentive program for customers who return and reuse containers",
+      "Focused on high-quality, fresh-squeezed beverages for health-conscious consumers",
+      "Aligned brand with environmental consciousness and waste reduction",
+      "Targeted Front Range farmers markets for local community engagement"
+    ],
+    "challenges": "Balancing sustainability goals with operational efficiency and profit margins. Designed innovative return program that encourages eco-friendly behavior while building customer loyalty and reducing costs over time.",
+    "outcome": "Completed detailed business plan demonstrating viability of sustainable beverage business. The reusable container program differentiates the brand while reducing environmental impact and building community relationships through shared values.",
+    "technologies": [
+      "Business Planning",
+      "Market Analysis",
+      "Financial Projections",
+      "Sustainability Strategy",
+      "Brand Development",
+      "Customer Loyalty Programs"
+    ]
+  },
+  {
+    "slug": "chipotle-customer-service",
+    "title": "Customer Service Excellence at Chipotle",
+    "subtitle": "Fast-paced food service and team collaboration",
+    "category": "Customer Service",
+    "year": "2024-2025",
+    "image": "/images/chipotle-project.jpg",
+    "shortDescription": "Delivered exceptional customer service in high-volume environment, collaborating with team members to optimize workflow and maintain food safety standards.",
+    "longDescription": "As a crew member at Chipotle, I developed strong customer service skills while working in a fast-paced restaurant environment. I prepared custom food orders, managed cash register operations, and collaborated with 5-10 team members per shift to ensure smooth operations and customer satisfaction.",
+    "highlights": [
+      "Served 100+ customers daily with personalized service",
+      "Maintained 100% food safety compliance through proper handling procedures",
+      "Collaborated with diverse team to optimize workflow during peak hours",
+      "Acquired cashier experience managing transactions and handling customer inquiries",
+      "Adapted quickly to fast-paced environment and high-pressure situations"
+    ],
+    "challenges": "Managing high customer volume during lunch and dinner rushes while maintaining quality and speed. Developed efficient multi-tasking strategies and clear communication with team members to keep operations flowing smoothly.",
+    "outcome": "Consistently received positive customer feedback and contributed to team efficiency. Developed valuable skills in customer service, teamwork, and time management that are transferable to any business setting.",
+    "technologies": [
+      "Customer Service",
+      "Team Collaboration",
+      "Food Safety",
+      "Cash Handling",
+      "Time Management",
+      "Communication"
+    ]
+  },
+  {
+    "slug": "cu-anschutz-lab-research",
+    "title": "Genetic Research at CU Anschutz",
+    "subtitle": "Laboratory research using advanced biotechnology",
+    "category": "Scientific Research",
+    "year": "2023",
+    "image": "/images/lab-research-project.jpg",
+    "shortDescription": "Performed genetic experiments using PCR and CRISPR technologies, maintained detailed data logs, and collaborated with research team under professional supervision.",
+    "longDescription": "During my internship at CU Anschutz Medical Campus, I worked in Dr. Aaron Johnson's laboratory performing genetic experiments using cutting-edge biotechnology. This experience taught me scientific rigor, attention to detail, and the importance of precise documentation in research settings.",
+    "highlights": [
+      "Performed PCR and CRISPR genetic experiments with 95%+ accuracy",
+      "Maintained detailed daily data logs and experimental records",
+      "Ensured compliance with CU Anschutz laboratory standards and protocols",
+      "Collaborated with team of 5 researchers on multiple projects",
+      "Learned advanced laboratory techniques and equipment operation"
+    ],
+    "challenges": "Learning complex laboratory techniques and maintaining precision in a highly technical environment. Through mentorship and consistent practice, I developed strong attention to detail and scientific methodology skills.",
+    "outcome": "Successfully completed summer internship with strong performance reviews. Gained valuable experience in research methodology, data management, and team collaboration that strengthened my analytical and problem-solving abilities.",
+    "technologies": [
+      "PCR Technology",
+      "CRISPR",
+      "Laboratory Techniques",
+      "Data Recording",
+      "Research Methodology",
+      "Quality Compliance"
+    ]
+  }
+]
+    "subtitle": "Competitive analysis in cannabis packaging industry",
+    "category": "Market Research",
+    "year": "2025",
+    "image": "/images/crativ-project.jpg",
+    "shortDescription": "Conducted comprehensive competitive analysis for sustainable cannabis packaging company, researching market trends and competitor positioning to identify growth opportunities.",
+    "longDescription": "During my internship at CRATIV Solutions, I led a competitive analysis project focused on the cannabis and sustainable packaging industry. This involved researching key competitors, analyzing their product offerings, pricing strategies, and brand positioning to help the company identify market opportunities and strategic advantages.",
+    "highlights": [
+      "Researched and tracked 15+ key competitors in cannabis packaging space",
+      "Compiled detailed reports on product offerings, pricing, and market activity",
+      "Presented findings to leadership team with actionable recommendations",
+      "Identified 3 major market gaps for potential business expansion",
+      "Analyzed sustainability trends and eco-friendly packaging innovations"
+    ],
+    "challenges": "The main challenge was gathering accurate competitive intelligence in a rapidly evolving industry with limited public data. I overcame this by leveraging multiple research methods including industry reports, trade publications, and direct market observation.",
+    "outcome": "Successfully delivered comprehensive competitive analysis that informed CRATIV's strategic planning for Q3 2025. Leadership team used insights to refine product positioning and identify new market segments.",
+    "technologies": [
+      "Market Research",
+      "Competitive Analysis",
+      "Data Compilation",
+      "Business Intelligence",
+      "Presentation Skills"
+    ]
+  },
+  {
+    "slug": "chipotle-customer-service",
+    "title": "Customer Service Excellence at Chipotle",
+    "subtitle": "Fast-paced food service and team collaboration",
+    "category": "Customer Service",
+    "year": "2024-2025",
+    "image": "/images/chipotle-project.jpg",
+    "shortDescription": "Delivered exceptional customer service in high-volume environment, collaborating with team members to optimize workflow and maintain food safety standards.",
+    "longDescription": "As a crew member at Chipotle, I developed strong customer service skills while working in a fast-paced restaurant environment. I prepared custom food orders, managed cash register operations, and collaborated with 5-10 team members per shift to ensure smooth operations and customer satisfaction.",
+    "highlights": [
+      "Served 100+ customers daily with personalized service",
+      "Maintained 100% food safety compliance through proper handling procedures",
+      "Collaborated with diverse team to optimize workflow during peak hours",
+      "Acquired cashier experience managing transactions and handling customer inquiries",
+      "Adapted quickly to fast-paced environment and high-pressure situations"
+    ],
+    "challenges": "Managing high customer volume during lunch and dinner rushes while maintaining quality and speed. Developed efficient multi-tasking strategies and clear communication with team members to keep operations flowing smoothly.",
+    "outcome": "Consistently received positive customer feedback and contributed to team efficiency. Developed valuable skills in customer service, teamwork, and time management that are transferable to any business setting.",
+    "technologies": [
+      "Customer Service",
+      "Team Collaboration",
+      "Food Safety",
+      "Cash Handling",
+      "Time Management",
+      "Communication"
+    ]
+  },
+  {
+    "slug": "cu-anschutz-lab-research",
+    "title": "Genetic Research at CU Anschutz",
+    "subtitle": "Laboratory research using advanced biotechnology",
+    "category": "Scientific Research",
+    "year": "2023",
+    "image": "/images/lab-research-project.jpg",
+    "shortDescription": "Performed genetic experiments using PCR and CRISPR technologies, maintained detailed data logs, and collaborated with research team under professional supervision.",
+    "longDescription": "During my internship at CU Anschutz Medical Campus, I worked in Dr. Aaron Johnson's laboratory performing genetic experiments using cutting-edge biotechnology. This experience taught me scientific rigor, attention to detail, and the importance of precise documentation in research settings.",
+    "highlights": [
+      "Performed PCR and CRISPR genetic experiments with 95%+ accuracy",
+      "Maintained detailed daily data logs and experimental records",
+      "Ensured compliance with CU Anschutz laboratory standards and protocols",
+      "Collaborated with team of 5 researchers on multiple projects",
+      "Learned advanced laboratory techniques and equipment operation"
+    ],
+    "challenges": "Learning complex laboratory techniques and maintaining precision in a highly technical environment. Through mentorship and consistent practice, I developed strong attention to detail and scientific methodology skills.",
+    "outcome": "Successfully completed summer internship with strong performance reviews. Gained valuable experience in research methodology, data management, and team collaboration that strengthened my analytical and problem-solving abilities.",
+    "technologies": [
+      "PCR Technology",
+      "CRISPR",
+      "Laboratory Techniques",
+      "Data Recording",
+      "Research Methodology",
+      "Quality Compliance"
+    ]
+  },
+  {
+    "slug": "speech-debate-leadership",
+    "title": "Speech & Debate Team Leadership",
+    "subtitle": "Leading competitive team to regional success",
+    "category": "Leadership",
+    "year": "2022-2023",
+    "image": "/images/debate-project.jpg",
+    "shortDescription": "Served as Speech & Debate Captain at Hinkley High School, leading team of 10 members in local and regional competitions while organizing practices and peer coaching.",
+    "longDescription": "As captain of the Speech & Debate team during my senior year, I led a team of 10 members through local and regional competitions. I was responsible for organizing weekly practices, facilitating peer coaching sessions, and preparing the team for tournaments. This role developed my leadership, communication, and organizational skills.",
+    "highlights": [
+      "Led team of 10 members to multiple regional competition placements",
+      "Organized and facilitated weekly practice sessions and strategy meetings",
+      "Mentored newer team members through peer coaching programs",
+      "Coordinated tournament logistics including travel and registration",
+      "Developed public speaking skills through competitive debate formats"
+    ],
+    "challenges": "Balancing leadership responsibilities with my own competition preparation while keeping team members motivated and engaged. Learned to delegate effectively and create inclusive team culture.",
+    "outcome": "Team achieved best regional performance in school's history. Developed strong leadership and communication skills that I now apply in professional settings. Several team members continued to compete at collegiate level.",
+    "technologies": [
+      "Public Speaking",
+      "Leadership",
+      "Team Management",
+      "Peer Coaching",
+      "Event Planning",
+      "Critical Thinking"
+    ]
+  },
+  {
+    "slug": "cannabis-business-education",
+    "title": "Cannabis Business Studies",
+    "subtitle": "Academic foundation in emerging industry",
+    "category": "Education",
+    "year": "2023-2025",
+    "image": "/images/education-project.jpg",
+    "shortDescription": "Pursuing A.A.S. in Cannabis Business at Community College of Denver with focus on business fundamentals, accounting, and customer service in regulated industry.",
+    "longDescription": "Currently pursuing an Associate of Applied Science degree in Cannabis Business, gaining comprehensive knowledge of business operations within the regulated cannabis industry. Coursework includes business fundamentals, accounting principles, and customer service excellence, all applied to the unique challenges of the cannabis sector.",
+    "highlights": [
+      "Achieved Dean's List (2023) and President's List (2024) academic honors",
+      "Completed coursework in business, accounting, and customer service",
+      "Served as Vice President of student-run organization on campus",
+      "Received Outstanding Student Organization Award (2025)",
+      "Gained understanding of cannabis industry regulations and compliance"
+    ],
+    "challenges": "Balancing academic coursework with multiple internships and work commitments. Developed strong time management and prioritization skills to excel in both academic and professional settings.",
+    "outcome": "Maintained high academic standing while gaining practical experience through internships. Built strong foundation for career in cannabis business management and operations.",
+    "technologies": [
+      "Business Management",
+      "Accounting",
+      "Customer Service",
+      "Cannabis Regulations",
+      "Organizational Leadership",
+      "Academic Excellence"
+    ]
+  }
+]
     "subtitle": "Full-stack online marketplace with payment integration",
     "category": "Web Application",
     "year": "2025",
