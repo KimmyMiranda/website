@@ -20,4 +20,4 @@ services:
 
 networks:
   frontend:
-    external: false
+    external: true
