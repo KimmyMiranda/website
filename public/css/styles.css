@@ -2,7 +2,7 @@
 
 /* Starry Background with overlay */
 body {
-  background-image: url('/images/star_background.PNG');
+  background-image: url('../images/star_background.png');
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
