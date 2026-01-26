@@ -1,5 +1,32 @@
 /* Custom CSS - Animations and utilities not covered by Tailwind */
 
+/* Starry Background with overlay */
+body {
+  background-image: url('/images/star_background.PNG');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  position: relative;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.15);
+  z-index: -1;
+}
+
+/* Improved text visibility */
+.text-readable {
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
+}
+
 /* Font families */
 .font-inter {
   font-family: 'Inter', sans-serif;
