@@ -6,20 +6,16 @@ body {
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   min-height: 100vh;
   position: relative;
 }
 
-body::before {
-  content: '';
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(255, 255, 255, 0.15);
-  z-index: -1;
+/* Use fixed background on larger screens only (not mobile iOS) */
+@media (min-width: 768px) {
+  body {
+    background-attachment: fixed;
+  }
 }
 
 /* Improved text visibility */
