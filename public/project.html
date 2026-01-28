@@ -87,10 +87,10 @@
 
       if (!slug) {
         container.innerHTML = `
-          <div class="text-center py-12">
+          <div class="bg-white/80 backdrop-blur-sm rounded-2xl p-8 shadow-md text-center py-12">
             <h1 class="text-3xl font-bold text-gray-900 mb-4">Project Not Found</h1>
             <p class="text-gray-600 mb-6">No project slug provided in URL.</p>
-            <a href="/" class="text-blue-600 hover:underline">Return to home</a>
+            <a href="/" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors">Return to Home</a>
           </div>
         `;
         return;
@@ -105,7 +105,7 @@
 
         if (!project) {
           container.innerHTML = `
-            <div class="text-center py-12">
+            <div class="bg-white/80 backdrop-blur-sm rounded-2xl p-8 shadow-md text-center py-12">
               <h1 class="text-3xl font-bold text-gray-900 mb-4">Project Not Found</h1>
               <p class="text-gray-600 mb-6">The project "${slug}" could not be found.</p>
               <a href="/" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors">Return to Home</a>
@@ -118,88 +118,91 @@
         container.innerHTML = `
           <div class="fade-in-section">
             <!-- Back button -->
-            <a href="/" class="inline-flex items-center text-blue-600 hover:text-blue-700 mb-8">
+            <a href="/" class="inline-flex items-center text-blue-600 hover:text-blue-700 mb-8 bg-white/80 backdrop-blur-sm rounded-lg px-4 py-2 shadow-sm">
               <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
               </svg>
               Back to Projects
             </a>
 
-            <!-- Project Header -->
-            <div class="mb-8">
-              <div class="flex flex-wrap items-center gap-3 mb-4">
-                <span class="inline-block px-3 py-1 bg-blue-100 text-blue-800 text-sm font-medium rounded-full">${project.category}</span>
-                <span class="text-gray-500">${project.year}</span>
+            <!-- Main Content Card -->
+            <div class="bg-white/80 backdrop-blur-sm rounded-2xl p-8 shadow-md">
+              <!-- Project Header -->
+              <div class="mb-8">
+                <div class="flex flex-wrap items-center gap-3 mb-4">
+                  <span class="inline-block px-3 py-1 bg-blue-100 text-blue-800 text-sm font-medium rounded-full">${project.category}</span>
+                  <span class="text-gray-500">${project.year}</span>
+                </div>
+                <h1 class="text-4xl md:text-5xl font-bold font-grotesk text-gray-900 mb-4">${project.title}</h1>
+                ${project.subtitle ? `<p class="text-xl text-gray-600">${project.subtitle}</p>` : ''}
               </div>
-              <h1 class="text-4xl md:text-5xl font-bold font-grotesk text-gray-900 mb-4">${project.title}</h1>
-              ${project.subtitle ? `<p class="text-xl text-gray-600">${project.subtitle}</p>` : ''}
-            </div>
 
-            <!-- Project Image -->
-            ${project.image ? `
-              <div class="mb-12 rounded-2xl overflow-hidden shadow-xl">
-                <img src="${project.image}" alt="${project.title}" class="w-full h-auto object-cover" onerror="this.parentElement.style.display='none'">
+              <!-- Project Image -->
+              ${project.image ? `
+                <div class="mb-12 rounded-2xl overflow-hidden shadow-xl">
+                  <img src="${project.image}" alt="${project.title}" class="w-full h-auto object-cover" onerror="this.parentElement.style.display='none'">
+                </div>
+              ` : ''}
+
+              <!-- Project Content -->
+              <div class="prose prose-lg max-w-none mb-12">
+                ${project.longDescription ? `
+                  <div class="mb-8">
+                    <h2 class="text-2xl font-bold font-grotesk text-gray-900 mb-4">Overview</h2>
+                    <p class="text-gray-700">${project.longDescription}</p>
+                  </div>
+                ` : ''}
+
+                ${project.highlights && project.highlights.length > 0 ? `
+                  <div class="mb-8">
+                    <h2 class="text-2xl font-bold font-grotesk text-gray-900 mb-4">Key Highlights</h2>
+                    <ul class="space-y-2">
+                      ${project.highlights.map(h => `<li class="text-gray-700">${h}</li>`).join('')}
+                    </ul>
+                  </div>
+                ` : ''}
+
+                ${project.challenges ? `
+                  <div class="mb-8">
+                    <h2 class="text-2xl font-bold font-grotesk text-gray-900 mb-4">Challenges & Solutions</h2>
+                    <p class="text-gray-700">${project.challenges}</p>
+                  </div>
+                ` : ''}
+
+                ${project.outcome ? `
+                  <div class="mb-8">
+                    <h2 class="text-2xl font-bold font-grotesk text-gray-900 mb-4">Outcome</h2>
+                    <p class="text-gray-700">${project.outcome}</p>
+                  </div>
+                ` : ''}
               </div>
-            ` : ''}
 
-            <!-- Project Content -->
-            <div class="prose prose-lg max-w-none mb-12">
-              ${project.longDescription ? `
-                <div class="mb-8">
-                  <h2 class="text-2xl font-bold font-grotesk text-gray-900 mb-4">Overview</h2>
-                  <p class="text-gray-700">${project.longDescription}</p>
+              <!-- Technologies -->
+              ${project.technologies && project.technologies.length > 0 ? `
+                <div class="mb-12">
+                  <h2 class="text-2xl font-bold font-grotesk text-gray-900 mb-4">Technologies Used</h2>
+                  <div class="flex flex-wrap gap-2">
+                    ${project.technologies.map(tech => `
+                      <span class="px-4 py-2 bg-gray-100 text-gray-800 rounded-lg text-sm font-medium">${tech}</span>
+                    `).join('')}
+                  </div>
                 </div>
               ` : ''}
 
-              ${project.highlights && project.highlights.length > 0 ? `
-                <div class="mb-8">
-                  <h2 class="text-2xl font-bold font-grotesk text-gray-900 mb-4">Key Highlights</h2>
-                  <ul class="space-y-2">
-                    ${project.highlights.map(h => `<li class="text-gray-700">${h}</li>`).join('')}
-                  </ul>
-                </div>
-              ` : ''}
-
-              ${project.challenges ? `
-                <div class="mb-8">
-                  <h2 class="text-2xl font-bold font-grotesk text-gray-900 mb-4">Challenges & Solutions</h2>
-                  <p class="text-gray-700">${project.challenges}</p>
-                </div>
-              ` : ''}
-
-              ${project.outcome ? `
-                <div class="mb-8">
-                  <h2 class="text-2xl font-bold font-grotesk text-gray-900 mb-4">Outcome</h2>
-                  <p class="text-gray-700">${project.outcome}</p>
-                </div>
-              ` : ''}
-            </div>
-
-            <!-- Technologies -->
-            ${project.technologies && project.technologies.length > 0 ? `
-              <div class="mb-12">
-                <h2 class="text-2xl font-bold font-grotesk text-gray-900 mb-4">Technologies Used</h2>
-                <div class="flex flex-wrap gap-2">
-                  ${project.technologies.map(tech => `
-                    <span class="px-4 py-2 bg-gray-100 text-gray-800 rounded-lg text-sm font-medium">${tech}</span>
-                  `).join('')}
-                </div>
-              </div>
-            ` : ''}
-
-            <!-- Action Buttons -->
-            <div class="flex flex-wrap gap-4">
-              ${project.liveUrl ? `
-                <a href="${project.liveUrl}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors">
-                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                  </svg>
-                  View Live Site
+              <!-- Action Buttons -->
+              <div class="flex flex-wrap gap-4">
+                ${project.liveUrl ? `
+                  <a href="${project.liveUrl}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                    View Live Site
+                  </a>
+                ` : ''}
+                <a href="/#projects" class="inline-flex items-center gap-2 bg-gray-100 text-gray-900 px-6 py-3 rounded-lg hover:bg-gray-200 transition-colors">
+                  View More Projects
                 </a>
-              ` : ''}
-              <a href="/#projects" class="inline-flex items-center gap-2 bg-gray-100 text-gray-900 px-6 py-3 rounded-lg hover:bg-gray-200 transition-colors">
-                View More Projects
-              </a>
+              </div>
             </div>
           </div>
         `;
@@ -213,7 +216,7 @@
       } catch (error) {
         console.error('Error loading project:', error);
         container.innerHTML = `
-          <div class="text-center py-12 bg-red-50 rounded-lg">
+          <div class="bg-white/80 backdrop-blur-sm rounded-2xl p-8 shadow-md text-center py-12">
             <h2 class="text-2xl font-bold text-red-900 mb-4">Error Loading Project</h2>
             <p class="text-red-700 mb-6">Unable to load project details. Please try again later.</p>
             <a href="/" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors">Return to Home</a>
