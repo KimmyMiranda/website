@@ -1,35 +1,17 @@
-# Image Placeholders
+# Project Images
 
-This directory should contain project images referenced in `projects.json`.
+Project images are stored in this directory and referenced by `public/data/projects.json`:
 
-## Required Images
+- `cannaclub.png`
+- `marketresearch.png`
+- `lemonade.png`
+- `chipotle.png`
+- `lab.png`
 
-Replace these placeholders with your actual project images:
+Keep the filename and extension in each project entry identical to the asset's exact case. The production Docker image runs on Linux, where `/images/example.PNG` and `/images/example.png` are different paths.
 
-1. **ecommerce-project.jpg** - E-Commerce Platform screenshot
-2. **task-manager-project.jpg** - Task Management App screenshot
-3. **cms-project.jpg** - Portfolio CMS screenshot
-4. **analytics-project.jpg** - Analytics Dashboard screenshot
-5. **fitness-project.jpg** - Mobile Fitness Tracker screenshot
+After adding or replacing images, rebuild and restart the container:
 
-## Image Guidelines
-
-- **Recommended Size**: 800x600px minimum for cards, 1200x800px for detail view
-- **Aspect Ratio**: 4:3 or 16:9 works best
-- **Format**: JPG, PNG, or WebP
-- **Optimization**: Compress images for web (aim for < 200KB per image)
-- **Alt Text**: Update the title in projects.json for accessibility
-
-## Adding Images
-
-1. Place your images in this directory
-2. Update the `image` field in `public/data/projects.json` to match your filenames
-3. Rebuild the Docker container:
-   ```
-   docker-compose down
-   docker-compose up --build -d
-   ```
-
-## Placeholder Behavior
-
-If an image fails to load, the JavaScript will gracefully hide the broken image element, showing only the gradient background.
+```sh
+docker compose up --build -d
+```
